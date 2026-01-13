@@ -1,0 +1,11 @@
+=== Symmetrized-cycles fit ===
+TARGET sin2 = 0.231
+
+R2 power-softmax: p* = 7.7400
+R3 logistic     : c0 = 0.5581, c1 = 3.3852
+
+power_softmax   MSE=4.312203e-05  params={'p': 7.74}
+logistic        MSE=7.501019e-05  params={'c0': 0.5580685498998057, 'c1': 3.385235520376062}
+ratio           MSE=8.009076e-05  params={}
+
+Best rule: power_softmax  MSE=4.312203e-05  params={'p': 7.74}

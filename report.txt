@@ -1,7 +1,14 @@
-=== Predictor test (no sklearn) ===
-v mean=269.344, std=212.272
+=== Universal scaling fit: v^2 = C / lambda1 ===
 
-lambda1 linear: slope=-1.445e+04, R²=0.263
-base_curv linear: slope=5.880e+04, R²=0.000
-lambda1 log: slope=-1.000, R²=1.000
-base_curv log: slope=0.000, R²=0.000
+C_mean   (moment) = 6.081013e+05
+C_median (moment) = 4.414068e+05
+C_log    (log OLS intercept) = 3.916609e+05
+Ci dispersion: mean=6.081013e+05, std=4.931377e+05, CoV=0.811
+
+Chosen C_hat (log) = 3.916609e+05
+RMSE on v (direct fit) = 241.488051 GeV
+
+Leave-one-out cross-validation (fit C on n-1, predict held-out):
+  RMSE_v  = 292.029124 GeV
+  RMSE_mW = 95.201494 GeV
+  RMSE_mZ = 108.538331 GeV

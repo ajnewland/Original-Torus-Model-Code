@@ -1,0 +1,6 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\predict_ax_ay_for_mass.py" ^
+  --latent "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\geom_fit_many\latent_z.csv" ^
+  --iso    "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\anchor_free_iso_full_many\anchor_free_isotonic_masses.csv" ^
+  --sin2 0.231 --alpha 0.0647 --beta 0.5529 ^
+  --masses "mu:0.10566,t:172.76" ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\predicted_ax_ay_for_masses.csv"

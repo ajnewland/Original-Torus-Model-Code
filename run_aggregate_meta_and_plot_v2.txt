@@ -1,0 +1,10 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\aggregate_meta_and_plot_v2.py" ^
+  --base_dir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+  --outdir   "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_summary"
+
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\aggregate_meta_and_plot.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+          "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine" ^
+          "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\\FINAL_RUN\meta\grid_runs_nine1" ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\\FINAL_RUN\meta\grid_summary_all"

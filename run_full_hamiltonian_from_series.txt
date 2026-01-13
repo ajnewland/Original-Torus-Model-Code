@@ -1,0 +1,7 @@
+Python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\full_hamiltonian_from_series.py" ^
+  --series_prefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series\torus_series_stable" ^
+  --k_max 6 ^
+  --dt 0.08 --lapse 1.0 ^
+  --alpha 4.9 --smooth_px 2.0 --lnom_clip 3.0 --omega_floor 1e-3 ^
+  --mask_margin 8 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\full_hamiltonian_pairs"

@@ -1,0 +1,31 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\backfill_meta_metrics.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+          "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine" ^
+          "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine1"
+
+# then regenerate the plots
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\aggregate_meta_and_plot.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+          "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine" ^
+          "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine1" ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_summary_all"
+
+
+
+Individually
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\backfill_meta_metrics.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\backfill_meta_metrics.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\backfill_meta_metrics.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine1"
+
+# 2) Re-aggregate all three
+python aggregate_meta_and_plot.py ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+         "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine" ^
+         "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine1" ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_summary_all"

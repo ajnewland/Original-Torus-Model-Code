@@ -1,0 +1,11 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\build_rich_torus_timeslices.py" ^
+  --species_csv_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --species_csv_t1 "C:\...\torsion_asymmetry_by_species_t1.csv" ^
+  --locked_csv     "C:\...\Predicted Masses\all_particles_locked.csv" ^
+  --grid_n 400 --alpha 2.0 --outprefix "C:\...\rich\torus_rich"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\build_rich_torus_timeslices.py" ^
+  --species_csv_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --locked_csv     "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --grid_n 400 --alpha 2.0 --dt 1.0 --evolve_mode gradflow --mu 0.02 ^
+  --outprefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich"

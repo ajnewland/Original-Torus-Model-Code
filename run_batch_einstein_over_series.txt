@@ -1,0 +1,6 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\batch_einstein_over_series.py" ^
+  --prefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series\torus_series_stable" ^
+  --k_max 6 ^
+  --alpha 4.9 --smooth_px 2.0 --lnom_clip 3.0 --omega_floor 1e-3 ^
+  --mask_margin 8 --dt 0.08 --lapse 1.0 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series_reports_stable"

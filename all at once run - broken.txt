@@ -1,0 +1,25 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\geometry_pipeline_from_sweeps.py" ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\geom_fit_many" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p40_ay0p72\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p44_ay0p72\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p48_ay0p72\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p50_ay0p72\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p52_ay0p72\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p52_ay0p74\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p78\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p79\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p80\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p81\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p82\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p83\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p60_ay0p80\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p60_ay0p81\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p60_ay0p82\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p60_ay0p83\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p62_ay0p90\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p62_ay0p91\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p62_ay0p92\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p49_ay0p75\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p48_ay0p75\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p49_ay0p73\cycle_rows_r.csv" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p50_ay0p80\cycle_rows_r.csv"

@@ -1,0 +1,58 @@
+3) How to run it (examples)
+
+
+
+
+
+Anchor-free (heat-kernel)
+python calibrate_mass_scale_noanchors.py \
+
+  --latent "...\latent_z_merged3.csv" \
+
+  --locked "...\all_particles_locked.csv" \
+
+  --slopes "...\sector_slopes.csv" \
+
+  --mode heattrace \
+
+
+  --outcsv "...\masses_anchor_free_heattrace.csv"
+
+
+
+
+
+Anchor-free (Planck-locked)
+python calibrate_mass_scale_noanchors.py \
+
+  --latent "...\latent_z_merged3.csv" \
+
+  --locked "...\all_particles_locked.csv" \
+
+  --slopes "...\sector_slopes.csv" \
+
+  --mode planck \
+
+  --force_full_area \
+
+
+  --outcsv "...\masses_anchor_free_planck.csv"
+
+
+
+Optional single-anchor (Higgs-locked)
+python calibrate_mass_scale_noanchors.py \
+
+  --latent "...\latent_z_merged3.csv" \
+
+  --locked "...\all_particles_locked.csv" \
+
+  --slopes "...\sector_slopes.csv" \
+
+  --mode higgs --higgs_mass 125.1 \
+
+
+  --outcsv "...\masses_higgs_locked.csv"
+
+
+

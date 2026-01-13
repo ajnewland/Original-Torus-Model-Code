@@ -1,0 +1,8 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\evolve_torus_timeseries.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --steps 6 --dt 0.08 ^
+  --mode gradflow --mu 0.002 ^
+  --alpha 4.9 --smooth_px 2.0 ^
+  --lnom_clip 3.0 --omega_floor 1e-3 --rescale_T 0.5 ^
+  --report ^
+  --outprefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series\torus_series_stable"

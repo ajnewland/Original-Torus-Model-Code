@@ -1,0 +1,7 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.58 --ay 0.82 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p82.csv"

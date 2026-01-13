@@ -1,0 +1,25 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ensemble_einstein_check.py" ^
+  --series_prefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series\torus_series_stable" ^
+  --k_max 6 ^
+  --alpha 4.9 --smooth_px 1.2 --mask_margin 12 ^
+  --augment_shifts "(0,0);(0,1);(1,0);(-1,0);(0,-1)" ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_avg_aug_m12"
+
+More tries
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ensemble_einstein_check.py" ^
+  --series_prefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series\torus_series_stable" ^
+  --k_max 3 ^
+  --alpha 5.1 --smooth_px 1.4 --mask_margin 12 ^
+  --augment_shifts "(0,0);(0.33,0);(0,0.33);(-0.33,0);(0,-0.33)" ^
+  --augment_frac --jitter_phase 0.02 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\\ensemble_avg_subpix_k3"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ensemble_einstein_check.py" ^
+  --series_prefix "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\series\torus_series_stable" ^
+  --k_max 6 ^
+  --alpha 4.9 --smooth_px 1.8 --mask_margin 14 ^
+  --omega_floor 2e-3 --lnom_clip 2.5 ^
+  --augment_shifts "(0,0);(0.5,0);(0,0.5);(-0.5,0);(0,-0.5)" ^
+  --augment_frac --jitter_phase 0.01 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\\ensemble_avg_conservative"

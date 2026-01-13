@@ -1,0 +1,11 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\lamda_from_timeslices.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results"\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results"\FINAL_RUN\rich\torus_rich_t1_fields.h5" ^
+  --alpha 4.9 --smooth_px 1.6 --mask_margin 8 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results"\FINAL_RUN\lambda_proxy"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\lamda_from_timeslices.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t1_fields.h5" ^
+  --alpha 4.9 --smooth_px 1.6 --mask_margin 8 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\lambda_proxy"

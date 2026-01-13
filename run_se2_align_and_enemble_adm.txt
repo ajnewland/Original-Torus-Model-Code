@@ -1,0 +1,6 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\se2_align_and_ensemble_adm.py" ^
+  --ensemble_dir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_new" ^
+  --alpha 4.9 --smooth_px 2.0 --lnom_clip 3.0 --omega_floor 1e-3 ^
+  --mask_margin 8 --dt 0.08 --lapse 1.0 ^
+  --deg_min -5 --deg_max 5 --deg_step 0.25 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_new_aligned"

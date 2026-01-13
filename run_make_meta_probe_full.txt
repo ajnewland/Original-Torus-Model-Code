@@ -1,0 +1,27 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 200 --alpha 4.9 --smooth_px 80 --operator spectral ^
+  --canvas_factor 3.0 --rot_deg 5 --seed 11 ^
+  --sigma_graph 450 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N200_sig450"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 200 --alpha 4.9 --smooth_px 80 --operator spectral ^
+  --canvas_factor 3.0 --rot_deg 5 --seed 12 ^
+  --sigma_graph 700 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N200_sig700"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 300 --alpha 4.9 --smooth_px 90 --operator spectral ^
+  --canvas_factor 3.0 --rot_deg 5 --seed 21 ^
+  --sigma_graph 450 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N300_sig450"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 300 --alpha 4.9 --smooth_px 90 --operator spectral ^
+  --canvas_factor 3.0 --rot_deg 5 --seed 22 ^
+  --sigma_graph 700 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N300_sig700"

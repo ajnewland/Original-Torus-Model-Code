@@ -1,0 +1,5 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\plot_torsion_assymetry.py" ^
+  --dsmap "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_ax_ay_map.csv" ^
+  --locked "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --outpng "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry.png" ^
+  --outcsv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv"

@@ -1,0 +1,80 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.58 --ay 0.82 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p82.csv"
+
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.58 --ay 0.81 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p81.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.58 --ay 0.80 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p80.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.58 --ay 0.78 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p78.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.58 --ay 0.76 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p58_ay0p76.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.56 --ay 0.82 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p56_ay0p82.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.56 --ay 0.80 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p56_ay0p80.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.56 --ay 0.81 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p56_ay0p81.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.56 --ay 0.78 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p56_ay0p78.csv"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\ew_cycle_invariant_pure.py" ^
+  --L 20 --jitter 0.02 --n 64 ^
+  --ax 2.60 --ay 0.83 ^
+  --star cotan ^
+  --shifts "0,0;1,0;0,1;3,2;5,5" ^
+  --ridge 1e-11 ^
+  --out "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p60_ay0p83.csv"

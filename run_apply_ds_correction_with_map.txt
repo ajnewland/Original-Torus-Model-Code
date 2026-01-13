@@ -1,0 +1,9 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\apply_ds_correction_v2.py" ^
+  --locked  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --ds_map  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_ax_ay_map.csv" ^
+  --sector_slopes "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\audit_out_full\sector_slopes.csv" ^
+  --alpha 4.4 ^
+  --gamma -0.05 ^
+  --beta 0.02 ^
+  --fit_bosons ^
+  --outcsv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\2masses_anchor_free_heattrace.csv"

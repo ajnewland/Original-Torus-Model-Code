@@ -1,0 +1,5 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\momentum_constraint_from_timeslices.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t1_fields.h5" ^
+  --dt 1.0 --lapse 1.0 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\momentum_from_rich"

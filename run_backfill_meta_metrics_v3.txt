@@ -1,0 +1,5 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\backfill_meta_metrics_v3.py" ^
+  --roots "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+         "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine" ^
+         "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine1" ^
+  --windowsize 32 --ds_tau_min 1e-3 --ds_tau_max 1e+1

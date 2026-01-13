@@ -1,0 +1,7 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\sector_lamda_and_delta_fit.py" ^
+  --locked "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --dsmap  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_ax_ay_map.csv" ^
+  --sectorslopes "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\audit_out_full\sector_slopes.csv" ^
+  --outcsv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\masses_sector_lambda_delta.csv" ^
+  --outpng "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\ds_field_with_species.png" ^
+  --nn_k 3 --median_normalize_ds --freeze_neutrinos

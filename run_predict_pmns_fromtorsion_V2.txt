@@ -1,0 +1,6 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\predict_pmns_from_torsion_v2.py" ^
+  --torsion_csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --locked_csv  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --sigma 0.025 --grid_n 220 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\pmns_out" ^
+  --sweep_sigma 0.018 0.045 8

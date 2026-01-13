@@ -1,0 +1,29 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\run_meta_grid.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --outdir  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs" ^
+  --alpha 4.9 --operator spectral ^
+  --N_list 256,300,400,512 ^
+  --smooth_list 72,80,88 ^
+  --sigma_list 350,400,450 ^
+  --rot_list 0,5 ^
+  --seeds 0,1
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\run_meta_grid.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --outdir  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine" ^
+  --alpha 4.9 --operator nine ^
+  --N_list 256,300,400,512 ^
+  --smooth_list 72,80,88 ^
+  --sigma_list 350,400,450 ^
+  --rot_list 0,5 ^
+  --seeds 0,1
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\run_meta_grid.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --outdir  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\grid_runs_nine1" ^
+  --alpha 4.9 --operator nine ^
+  --N_list 256,300,400,512 ^
+  --smooth_list 72,80,88 ^
+  --sigma_list 350,400,450 ^
+  --rot_list 0,5 ^
+  --seeds 0,1

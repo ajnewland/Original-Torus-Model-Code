@@ -1,0 +1,64 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t1_fields.h5" ^
+  --dt 1.0 --lapse 1.0 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torus_report"
+
+Revised Einstein 
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t1_fields.h5" ^
+  --dt 1.0 --lapse 1.0 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torus_report"
+
+Fully Revised Einstein
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t1_fields.h5" ^
+  --dt 1.0 --lapse 1.0 ^
+  --alpha_sweep 1.5,2,3,4,5 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torus_report_sweep"
+
+Einstein Affine
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t1_fields.h5" ^
+  --dt 0.08 --lapse 1.0 ^
+  --alpha_sweep 4.6,4.75,4.9 ^
+  --laplace nine --smooth_px 1.6 --mask_margin 8 ^
+  --kappa_mode affine ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\einstein_momentum_report_affine"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t1_fields.h5" ^
+  --dt 0.08 --lapse 1.0 ^
+  --alpha_sweep 4.6,4.75,4.9 ^
+  --laplace nine --smooth_px 1.6 --mask_margin 8 ^
+  --kappa_mode affine ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\einstein_momentum_report_affine"
+
+Last Try?
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t1_fields.h5" ^
+  --dt 0.08 --lapse 1.0 ^
+  --alpha_sweep 4.6,4.75,4.9 ^
+  --laplace nine --smooth_px 2.2 --mask_margin 12 ^
+  --kappa_mode none ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\FINAL_RUN\einstein_momentum_report_scalar_s22_m12"
+
+With Spectral!
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_einstein_momentum_report.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --h5_t1 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t1_fields.h5" ^
+  --dt 0.08 --lapse 1.0 ^
+  --alpha_sweep 4.6,4.75,4.9 ^
+  --laplace spectral --smooth_px 1.6 --mask_margin 8 ^
+  --kappa_mode none ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\FINAL_RUN\einstein_momentum_report_spectral"

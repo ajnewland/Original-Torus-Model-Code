@@ -1,0 +1,7 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\calibrate_with_dsmap_safe.py" ^
+  --locked "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --dsmap  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_ax_ay_map.csv" ^
+  --sectorslopes "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\audit_out_full\sector_slopes.csv" ^
+  --outcsv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\masses_with_dsmap_safe.csv" ^
+  --outpng "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\ds_field_with_species.png" ^
+  --lambda_ds 0.10 --ds_lo 0.8 --ds_hi 1.2 --gamma 0.0

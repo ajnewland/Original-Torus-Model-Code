@@ -1,0 +1,10 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\grid_calibrate_gamma_lambda_autobeta.py" ^
+  --locked "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --dsmap  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_ax_ay_map.csv" ^
+  --sectorslopes "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\audit_out_full\sector_slopes.csv" ^
+  --outcsv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\masses_gridcalib_autobeta.csv" ^
+  --outpng "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Calibrate_mass_scale_noanchors\ds_field_with_species.png" ^
+  --freeze_neutrinos ^
+  --gamma_min -0.5 --gamma_max 1.2 --gamma_step 0.01 ^
+  --lambda_min 0.02 --lambda_max 1.00 --lambda_step 0.02 ^
+  --nn_k 3

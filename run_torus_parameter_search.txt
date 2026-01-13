@@ -1,0 +1,14 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_parameter_search.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t0_fields.h5" ^
+  --alpha_list 1,1.5,2,3,4 ^
+  --dt_list 0.1,0.2,0.5,1.0 ^
+  --mu_list 0.005,0.01,0.02 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\param_search_coarse"
+
+Refine it after
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\torus_parameter_search.py" ^
+  --h5_t0 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\rich\torus_rich_t0_fields.h5" ^
+  --alpha_list 4.0,4.05,4.10,4.15,4.5 ^
+  --dt_list 0.1,0.13,0.15,0.17, ^
+  --mu_list 0.003,0.004,0.005,0.006 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\param_search_fine"

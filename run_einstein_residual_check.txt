@@ -1,0 +1,11 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\einstein_residual_check.py" ^
+  --torsion_csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --locked_csv  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --grid_n 280 --alpha 1.0 --sigma_m 0.030 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\einstein_check"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\einstein_residual_check.py" ^
+  --torsion_csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --locked_csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv"  ^
+  --grid_n 320 --alpha 1.0 --sigma_m 0.030 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\einstein_check_dense"

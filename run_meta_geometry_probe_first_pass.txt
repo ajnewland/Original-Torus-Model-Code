@@ -1,0 +1,17 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 64 --alpha 4.9 --smooth_px 72 --operator spectral ^
+  --canvas_factor 3.0 --rot_deg 0 ^
+  --seed 42 --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N64_R2path"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 100 --alpha 4.9 --smooth_px 90 --operator nine ^
+  --canvas_factor 3.0 --rot_deg 5 ^
+  --seed 7 --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N100_nine90_rot5"
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\meta_geometry_probe.py" ^
+  --h5_base "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 100 --alpha 4.9 --smooth_px 90 ^
+  --sigma_graph 100 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\meta\N100_graphLocal"

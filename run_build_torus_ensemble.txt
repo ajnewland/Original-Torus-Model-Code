@@ -1,0 +1,9 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\build_torus_ensemble.py" ^
+  --template_h5 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 6 ^
+  --alpha0 4.9 --mu0 0.002 ^
+  --dalpha 0.02 --dmu 0.001 ^
+  --noise_Teff_std 0.02 ^
+  --dt 0.08 --smooth_px 2.0 --lnom_clip 3.0 --omega_floor 1e-3 ^
+  --mask_margin 8 --lapse 1.0 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_new"

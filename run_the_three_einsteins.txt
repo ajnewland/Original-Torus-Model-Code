@@ -1,0 +1,19 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\build_torus_ensemble_t2.py" ^
+  --template_h5 "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\rich\torus_rich_t0_fields.h5" ^
+  --N 12 ^
+  --alpha0 4.9 --mu0 0.002 ^
+  --dalpha 0.02 --dmu 0.001 ^
+  --noise_Teff_std 0.02 ^
+  --dt 0.08 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_t2"
+
+for /l %%R in (1,1,12) do (
+  python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\adm_with_shift_patches.py" ^
+    --run_dir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_t2\run_0%%~NRR" ^
+    --alpha 4.9 --smooth_px 1.4 --lnom_clip 2.5 --omega_floor 1e-3 ^
+    --mask_margin 8 --dt 0.08 --lapse 1.0 ^
+    --patch 16 --beta_ridge 1e-6 --beta_smooth_px 1.0
+)
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\summarize_adm_runs.py" ^
+  --ensemble_dir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\FINAL_RUN\ensemble_t2"

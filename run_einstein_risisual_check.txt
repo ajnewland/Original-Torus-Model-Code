@@ -1,0 +1,6 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\einstein_residual_check.py" ^
+  --torsion_csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --locked_csv  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --grid_n 320 --alpha 1.0 --sigma_m 0.030 ^
+  --interp rbf --rbf_eps 0.12 --rbf_lambda 1e-6 ^
+  --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\einstein_check_rbf"

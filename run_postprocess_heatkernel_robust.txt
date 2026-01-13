@@ -1,0 +1,6 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\postprocess_heatkernel_robust.py" ^
+  --theta "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\theta_mean.csv" ^
+  --outds "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_mean.csv" ^
+  --plot  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\spectral_dimension_ds.png" ^
+  --meta  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ensemble_meta.csv" ^
+  --bootstrap_B 300 --win_points 51 --verbose

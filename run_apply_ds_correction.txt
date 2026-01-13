@@ -1,0 +1,8 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\apply_ds_correction.py" ^
+  --locked  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --ds      "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds_mean.csv" ^
+  --latent  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\geom_fit_many\latent_z_merged3.csv" ^
+  --sector_slopes "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\grand_audit_out\sector_slopes_clean.csv" ^
+  --alpha 4.4 --beta 0.0 --gamma 0.30 ^
+  --outcsv  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds_corrected_masses.csv" ^
+  --plot

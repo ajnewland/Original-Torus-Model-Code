@@ -1,0 +1,4 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\predict_ckm_from_torsion.py" ^
+  --torsion_csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\torsion_asymmetry_by_species.csv" ^
+  --locked_csv  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\Predicted Masses\all_particles_locked.csv" ^
+  --sigma 0.025 --grid_n 220 --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ckm_out"

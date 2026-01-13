@@ -1,0 +1,5 @@
+
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\augment_r_in_csv.py" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p56_ay0p81.csv\cycle_swap_summary.txt" ^
+  "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ew_sweep_ax2p56_ay0p81_r.csv"
+

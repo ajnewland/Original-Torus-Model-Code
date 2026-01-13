@@ -1,0 +1,15 @@
+=== Model: full+spec ===
+Features: rho_v, kappa_rms, base_curv, base_spec
+Coefficients (theta) with 68% CI:
+               const = +0.428446  [ +0.387682 , +0.428446 ]
+   minus_log_lambda1 = +0.000000  [ -0.285005 , +0.000000 ]
+           log_rho_v = +2.129299  [ +1.926707 , +2.129299 ]
+       log_kappa_rms = -0.000000  [ -0.000000 , +0.000000 ]
+       log_base_curv = +0.000000  [ +0.000000 , +0.000000 ]
+       log_base_spec = -0.000000  [ -0.000000 , +0.570009 ]
+
+Implied law:
+  v^2 = 1.534871e+00 * lambda1^+0.000 * rho_v^+2.129 * kappa_rms^-0.000 * base_curv^+0.000 * base_spec^-0.000
+
+RMSE_v (train) = 0.000 GeV
+RMSE_v (LOO)   = 0.000 GeV

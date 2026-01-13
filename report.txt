@@ -1,0 +1,7 @@
+=== Predictor test (no sklearn) ===
+v mean=269.344, std=212.272
+
+lambda1 linear: slope=-1.445e+04, R²=0.263
+base_curv linear: slope=5.880e+04, R²=0.000
+lambda1 log: slope=-1.000, R²=1.000
+base_curv log: slope=0.000, R²=0.000

@@ -1,0 +1,7 @@
+model,features,RMSE_v,RMSE_v_LOO,law
+baseline,,4.625846040283649e-13,5.842718214936548e-13,v^2 = 6.051600e+04 * lambda1^+0.000
++kappa,rho_v kappa_rms,8.235922887963568e-13,6.963028786966049e-13,v^2 = 1.534871e+00 * lambda1^-0.000 * rho_v^+2.129 * kappa_rms^+0.000
+full,rho_v kappa_rms base_curv,8.235922887963568e-13,7.710092644811695e-13,v^2 = 1.534871e+00 * lambda1^-0.000 * rho_v^+2.129 * kappa_rms^+0.000 * base_curv^+0.000
++rho_v,rho_v,2.2737367544323206e-13,1.1214516504864218e-12,v^2 = 1.534871e+00 * lambda1^+0.000 * rho_v^+2.129
++curv,rho_v base_curv,2.2737367544323206e-13,1.1214516504864218e-12,v^2 = 1.534871e+00 * lambda1^+0.000 * rho_v^+2.129 * base_curv^+0.000
+full+spec,rho_v kappa_rms base_curv base_spec,1.010190879548653e-12,2.0433768817161233e-06,v^2 = 1.534871e+00 * lambda1^+0.000 * rho_v^+2.129 * kappa_rms^-0.000 * base_curv^+0.000 * base_spec^-0.000

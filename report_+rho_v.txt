@@ -1,0 +1,12 @@
+=== Model: +rho_v ===
+Features: rho_v
+Coefficients (theta) with 68% CI:
+               const = +0.428446  [ +0.428446 , +0.428446 ]
+   minus_log_lambda1 = +0.000000  [ -0.000000 , +0.000000 ]
+           log_rho_v = +2.129299  [ +2.129299 , +2.129299 ]
+
+Implied law:
+  v^2 = 1.534871e+00 * lambda1^+0.000 * rho_v^+2.129
+
+RMSE_v (train) = 0.000 GeV
+RMSE_v (LOO)   = 0.000 GeV

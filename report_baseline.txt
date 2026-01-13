@@ -1,0 +1,11 @@
+=== Model: baseline ===
+Features: (none)
+Coefficients (theta) with 68% CI:
+               const = +11.010663  [ +11.010663 , +11.010663 ]
+   minus_log_lambda1 = +0.000000  [ -0.000000 , +0.000000 ]
+
+Implied law:
+  v^2 = 6.051600e+04 * lambda1^+0.000
+
+RMSE_v (train) = 0.000 GeV
+RMSE_v (LOO)   = 0.000 GeV

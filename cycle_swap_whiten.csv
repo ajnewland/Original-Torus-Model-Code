@@ -1,0 +1,6 @@
+xshift,yshift,sin2_whiten_mean,sin2_whiten_std,cond_Gref_mean,cond_Mwh_mean,ok,n
+0,0,nan,nan,nan,nan,0,64
+1,0,nan,nan,nan,nan,0,64
+0,1,nan,nan,nan,nan,0,64
+3,2,nan,nan,nan,nan,0,64
+5,5,nan,nan,nan,nan,0,64

@@ -1,0 +1,7 @@
+=== Best (alpha, dt, mu) ===
+alpha=4.0
+dt=0.1
+mu=0.003
+
+β≈14.4, κ≈1, mscale≈0.008137, c0≈-101.9
+ein_rel=0.9137, mom_rel_src=1, SCORE=1.355

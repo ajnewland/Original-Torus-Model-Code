@@ -1,1 +1,1 @@
-Best permutation of down columns: (0, 2, 1)  -> ['d', 'b', 's']
+Best perm of neutrino columns: (1, 0, 2) -> ['nu2', 'nu1', 'nu3']

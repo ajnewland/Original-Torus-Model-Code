@@ -1,7 +1,9 @@
-=== Safe autosweep (invariant from G) ===
-Lx=20 Ly=20 jitter=0.02  n=64
-ax in [2.57,2.63] steps=13  ay in [0.78,0.82] steps=17
-target=0.231  tol=0.002  ridge=1e-11  retries=5
-
-=== Best setting ===
-Best near target at ax=2.570, ay=0.780  sin2=0.232562  |sin2-target|=0.001562  ok=64  cond~3.300
+{
+  "ckm_rmse": 0.10702148681017305,
+  "ckm_corr": 0.9808426014049906,
+  "k_params": {
+    "k1": 1185.7241379310346,
+    "k2": 66.0,
+    "k3": 216.0
+  }
+}

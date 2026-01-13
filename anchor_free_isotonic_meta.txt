@@ -1,3 +1,3 @@
 Anchor-free isotonic map
-Input species count: 3  -> Extended to: 10
-logm_min=-6.0  logm_max=3.0
+Input species count: 3  -> Extended to: 30
+logm_min=-10.0  logm_max=7.0

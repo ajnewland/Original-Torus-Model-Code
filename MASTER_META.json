@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "ckm_dist": {
+      "note": "missing",
+      "path": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\Predicted Masses\\grand_audit_out\\ckm_distance_matrix_numeric.csv",
+      "sha256": null
+    },
+    "locked_csv": {
+      "path": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\Predicted Masses\\all_particles_locked.csv",
+      "sha256": "2039bcac495bf8979cd72e24a24169157e992d5a0e31d808d3749807a67172b1"
+    },
+    "sector_slopes": {
+      "path": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\Predicted Masses\\grand_audit_out\\sector_slopes.csv",
+      "sha256": "bc9ec0ae968482f1de6b64342532852062648e668edc36899f87cf022319428b"
+    },
+    "winding": {
+      "path": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\Predicted Masses\\grand_audit_out\\winding_rationals.csv",
+      "sha256": "885e33ecaea267cf58c1181cb84b8d8e2277d9560c0a013e82e4f49c7855bace"
+    }
+  },
+  "results": {
+    "rank_only_error": "Could not find z/mass columns. Seen: ['species', 'm_GeV', 'logm', 'q_target', 'z_target', 'ax', 'ay', 'z_pred', 'abs_err', 'ok', 'note', 'expansions']",
+    "slopes_universality_csv": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\grand_audit_plus\\slopes_universality\\alpha_universality_summary.csv",
+    "winding_ok": true
+  }
+}

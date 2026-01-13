@@ -1,0 +1,41 @@
+{
+  "inputs": {
+    "locked_csv": {
+      "path": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\Predicted Masses\\all_particles_locked.csv"
+    },
+    "ckm_dist": null,
+    "pdg_ckm": null,
+    "grid_glob": null
+  },
+  "outputs": {
+    "winding_csv": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\grand_audit_plus\\winding\\winding_rationals_auto.csv",
+    "slopes_universality_csv": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\grand_audit_plus\\slopes_universality\\alpha_universality_summary.csv",
+    "koide_csv": "C:\\Users\\anthoni.newland\\OneDrive - ZINUS\\Desktop\\New Results\\grand_audit_plus\\koide\\koide_Qz.csv",
+    "centroids": {
+      "fermion_centroid": [
+        2.5715833333333333,
+        0.7964000000000001
+      ],
+      "boson_centroid": [
+        2.5591,
+        0.899938
+      ],
+      "centroid_distance": 0.10428782793361406
+    },
+    "sum_Qz": 1.3220863333333335,
+    "spearman": {
+      "overall": 1.0,
+      "lepton": 1.0,
+      "up": 1.0,
+      "down": 1.0,
+      "neutrino": 1.0
+    },
+    "boson_band": {
+      "z_min": 1.553851,
+      "z_max": 1.683119,
+      "band_width": 0.12926799999999994
+    },
+    "ckm_summary": null,
+    "grid_minima_csv": null
+  }
+}

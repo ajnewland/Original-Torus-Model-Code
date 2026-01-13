@@ -1,0 +1,15 @@
+# Shoulder diagnostics report
+
+Smoothing robustness plot: smooth_windows.png
+Curvature (inflection) plot: curvature.png
+Two-segment BIC plot: bic_break.png
+
+Key results:
+- Curvature inflection (most concave point): t* ~ 1.746e+01, d_s(t*) ~ 3.825
+- Two-segment break (BIC): t_break ~ 7.103e+00, d_s(t_break) ~ 3.834
+- ΔBIC (one-line vs two-segment) = 367.54 => evidence: strong
+
+Interpretation guide:
+• If the shoulder/kink remains at a consistent t across smoothing windows, it’s likely physical.
+• A pronounced negative curvature peak near that t supports a real shoulder.
+• ΔBIC ≥ 10 is strong evidence for a real break in log P(t); 6–10 moderate; 2–6 weak; <2 negligible.

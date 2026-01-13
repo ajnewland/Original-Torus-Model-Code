@@ -1,0 +1,1 @@
+Best permutation of down columns: (0, 2, 1)  -> ['d', 'b', 's']

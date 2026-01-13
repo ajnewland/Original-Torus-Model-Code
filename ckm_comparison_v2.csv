@@ -1,0 +1,2 @@
+pred_Vud,PDG_Vud,delta_Vud,pred_Vus,PDG_Vus,delta_Vus,pred_Vub,PDG_Vub,delta_Vub,pred_Vcd,PDG_Vcd,delta_Vcd,pred_Vcs,PDG_Vcs,delta_Vcs,pred_Vcb,PDG_Vcb,delta_Vcb,pred_Vtd,PDG_Vtd,delta_Vtd,pred_Vts,PDG_Vts,delta_Vts,pred_Vtb,PDG_Vtb,delta_Vtb,RMSE
+0.937457,0.974010,-0.036553,0.006862,0.226500,-0.219638,0.348033,0.003610,0.344423,0.007624,0.226360,-0.218736,0.999162,0.973200,0.025962,0.040214,0.040530,-0.000316,0.348017,0.008540,0.339477,0.040351,0.039780,0.000571,0.936619,0.999172,-0.062553,0.193184

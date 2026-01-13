@@ -1,0 +1,2 @@
+file,feature,k,b,xmu,xsd,delta,mean|err|_ideal,mean|err|_log,mean|err|_log+delta,min|err|_log+delta,max|err|_log+delta,fit_on_this_file
+C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\seesaw_ay_sweep.csv,logratio,11.999999999999998,-1.0684096745407632,-0.0205583665083646,0.10477877884874211,0.0011328622052996266,0.002633599999999995,0.004282179657626643,0.0042283325607536115,0.00033562376289322793,0.008360862134296349,True

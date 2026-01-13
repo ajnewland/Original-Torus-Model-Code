@@ -1,0 +1,6 @@
+SUSY-LQG Particle Mass Prediction (Version 13.1)
+Date: 09:36 PM BST, June 25, 2025
+N_particles: 22
+
+Particle | Predicted Mass (GeV) | PDG Mass (GeV) | Error (%) | chi_total_v | Expected chi_total_v | alpha_v | F_conn_v | D_H | S_v | I_v
+------------------------------------------------------------------------------------------------------------------------

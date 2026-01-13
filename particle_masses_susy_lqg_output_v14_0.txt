@@ -1,0 +1,9 @@
+SUSY-LQG Particle Mass Prediction (Version 14.0)
+Date: 10:00 PM BST, June 25, 2025
+N_particles: 22
+
+Particle | Predicted Mass (GeV) | PDG Mass (GeV) | Error (%) | chi_total_v | alpha_v
+--------------------------------------------------------------------------------
+up_quark | 1.614430e-05 | 2.200000e-03 | 99.2662 | 1.073447e-05 | 1.073447e-07
+dark_matter | 1.294181e-03 | 1.045000e+00 | 99.8762 | 1.114362e-03 | 1.114362e-05
+electron | 8.527208e-07 | 5.109980e-04 | 99.8331 | 7.342403e-07 | 7.342403e-09

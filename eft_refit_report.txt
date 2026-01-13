@@ -1,0 +1,23 @@
+EFT linear refit comparison (UTF-8):
+  Models:
+    FULL:   m_H^2, λ ~ [1, d_s, a1, Tr_g]
+    BASE:   m_H^2, λ ~ [1, d_s, a1]
+
+Coefficients (m_H^2):
+  FULL  -> 1:-7.023103e+01, ds:-2.247393e+02, a1:-7.023103e+02, Tr_g:3.972484e-13
+  BASE  -> 1:-7.023103e+01, ds:-2.247393e+02, a1:-7.023103e+02
+RMSE(m_H^2): FULL=1.818989e-12  BASE=9.094947e-13
+
+Coefficients (λ):
+  FULL  -> 1:1.160537e-03, ds:3.713717e-03, a1:1.160537e-02, Tr_g:-5.463777e-18
+  BASE  -> 1:1.160537e-03, ds:3.713717e-03, a1:1.160537e-02
+RMSE(λ):   FULL=5.551115e-17  BASE=0.000000e+00
+
+Derived observables:
+  v_fit  (FULL) mean±std: 246.000 ± 0.000 GeV
+  v_fit  (BASE) mean±std: 246.000 ± 0.000 GeV
+  m_h_fit(FULL) mean±std: 125.000 ± 0.000 GeV
+  m_h_fit(BASE) mean±std: 125.000 ± 0.000 GeV
+
+RMSE(v vs target):   FULL=0.000   BASE=0.000
+RMSE(m_h vs target): FULL=0.000 BASE=0.000

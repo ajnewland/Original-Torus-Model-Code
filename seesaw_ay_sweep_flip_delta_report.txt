@@ -1,0 +1,8 @@
+Seesaw logistic fit report
+Feature          : logratio
+Target (sin^2)   : 0.231000
+Delta applied    : True
+Fit parameters   : k=12.000000, b=-1.068410, xmu=-0.020558, xsd=0.104779
+Mean|err| ideal  : 0.002634
+Mean|err| logist : 0.004282
+Mean|err| log+δ  : 0.004228

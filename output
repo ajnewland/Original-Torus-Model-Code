@@ -1,0 +1,19 @@
+Mass Predictions:
+electron: m_v=0.000511 GeV, m_PDG=0.000511 GeV, error=0.0178%
+muon: m_v=0.106189 GeV, m_PDG=0.105658 GeV, error=0.5026%
+tau: m_v=1.769885 GeV, m_PDG=1.776860 GeV, error=0.3925%
+electron_neutrino: m_v=1.006384e-08 GeV, m_PDG=1.006000e-08 GeV, error=0.0382%
+muon_neutrino: m_v=1.006352e-07 GeV, m_PDG=1.006000e-07 GeV, error=0.0350%
+tau_neutrino: m_v=1.509634e-07 GeV, m_PDG=1.509000e-07 GeV, error=0.0420%
+up_quark: m_v=0.002181 GeV, m_PDG=0.002160 GeV, error=0.9763%
+down_quark: m_v=0.004713 GeV, m_PDG=0.004670 GeV, error=0.9212%
+charm_quark: m_v=1.272176 GeV, m_PDG=1.270000 GeV, error=0.1714%
+strange_quark: m_v=0.093371 GeV, m_PDG=0.093400 GeV, error=0.0313%
+top_quark: m_v=173.006787 GeV, m_PDG=171.700000 GeV, error=0.7611%
+bottom_quark: m_v=4.194104 GeV, m_PDG=4.180000 GeV, error=0.3374%
+W_boson: m_v=80.535176 GeV, m_PDG=80.377000 GeV, error=0.1968%
+Z_boson: m_v=91.408295 GeV, m_PDG=91.187600 GeV, error=0.2420%
+photon: m_v=0.000000e+00 GeV, m_PDG=0.000000e+00 GeV, error=0.0000%
+gluons: m_v=0.000000e+00 GeV, m_PDG=0.000000e+00 GeV, error=0.0000%
+higgs: m_v=125.293257 GeV, m_PDG=125.250000 GeV, error=0.0345%
+dark_matter: m_v=1.044614 GeV, m_PDG=1.045000 GeV, error=0.0369%

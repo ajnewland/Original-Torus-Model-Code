@@ -1,0 +1,1 @@
+python "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Scripts\analyze_ds_shoulder.py" --csv "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local\ds_mean.csv" --outdir "C:\Users\anthoni.newland\OneDrive - ZINUS\Desktop\New Results\ds flow files\hk_results_local"
